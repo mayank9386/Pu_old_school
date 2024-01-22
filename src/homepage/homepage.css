@@ -1,0 +1,115 @@
+/* .container{
+    padding: 0 6%;
+} */
+.hero-homepage {
+    background: url('../assets/backgrounds/bg-hero.jpg') center center/cover no-repeat;
+    width: 100%;
+    height: 680px;
+}
+
+.hero-container {
+    height: inherit;
+}
+
+.hero-text-area {
+    /* background: #FFF; */
+}
+
+.hero-logo-area {
+    display: flex;
+    justify-content: center;
+}
+
+.herologo {
+    width: 50%;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Poppins';
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.buttons{
+    /* padding-right: 40px !important; */
+    margin-top: 20px;
+}
+
+.motion-button {
+    padding: 10px 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000;
+    margin-right: 40px !important;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.motion-button:hover{
+    background-color: orange;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.image-scroll{
+    margin-top: 100px;
+    filter: invert(100%);
+}
+
+.hero-image-area{
+    /* display: flex;
+    flex-direction: row; */
+}
+.imageposition2{
+    display:flex;
+    justify-content: center;
+}
+.imageContainer1>img{
+    width: 230px;
+    height: 150px;
+    border: 7px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .hero-header{
+        font-size: 50px;
+    }
+    .buttons{
+        margin-top: 18px;
+    }
+    
+    .motion-button {
+        padding: 6px 15px;
+        font-size: 18px;
+    }
+    .image-scroll{
+        margin-top: 50px;
+    }
+    .hero-image-area{
+        display: none;
+    }   
+}
+/* Media query for smartphones */
+@media only screen and (min-width: 767px) and (max-width: 1000px){
+    .imageContainer1>img{
+        width: 180px;
+        height: 100px;
+        border: 7px solid #FFFFFF;
+        border-radius: 20px;
+    }
+    .image-scroll{
+        margin-top: 40px;
+    }
+  }
